@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="spotify.css">
+</head>
+<body>
+    <div class="container">
+        <div class="player">
+            <div class="album-cover">
+                <img src="album-cover.jpg" alt="Album Cover" id="album-cover">
+            </div>
+            <div class="song-info">
+                <h2 id="song-title">Song Title</h2>
+                <p id="song-artist">Artist Name</p>
+            </div>
+            <div class="controls">
+                <button id="prev-btn">Prev</button>
+                <button id="play-btn">Play</button>
+                <button id="next-btn">Next</button>
+            </div>
+            <div class="progress">
+                <input type="range" id="progress-bar" value="0">
+            </div>
+        </div>
+    </div>
+    <script src="spotify.js"></script>
+</body>
+</html>
